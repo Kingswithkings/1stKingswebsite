@@ -3,103 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Services offered by 1stkings INTERNATIONAL: AI Integration, Software Development, Education, and more.">
     <title>Services - 1stkings INTERNATIONAL</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Same styles */
-        body { font-family: 'Arial', sans-serif; }
-        .section { padding: 50px 0; }
-        .footer { background-color: #343a40; color: white; padding: 20px 0; text-align: center; }
-        .card { margin-bottom: 20px; }
+        body {font-family:Arial,sans-serif;}
+        .section {padding:50px 0;}
+        .footer {background:#343a40;color:#fff;padding:20px 0;text-align:center;}
+        .navbar-brand img {height:40px;width:auto;}
+        .project-link {font-weight:600;}
+        .btn-demo {font-size:0.9rem;}
     </style>
 </head>
 <body>
-    <!-- Navbar (same, with active on Services) -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">1stkings INTERNATIONAL</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ai-research.html">AI Research</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <section class="section">
-        <div class="container">
-            <h1>Our Services</h1>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card">
-                        <h4>AI Integration & Implementation</h4>
-                        <p>Custom AI solutions for businesses, including MindSync (Thought-to-Action Engine), AI Medical Assistant, and AI for Predictive Healthcare.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card" id="software">
-                        <h4>Software Development (Mobile & Web Applications)</h4>
-                        <p>Designing resilient, scalable applications infused with spiritual and strategic intelligence, such as fintech apps and smart irrigation systems.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <h4>Software Engineering & Maintenance</h4>
-                        <p>Ongoing support and maintenance for software systems.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card" id="education">
-                        <h4>Education & Training in AI & Software Engineering</h4>
-                        <p>Training programs for students and professionals in AI and software.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <h4>Custom AI Solutions for Businesses</h4>
-                        <p>Tailored solutions like Pay-A-Pocket fintech and Gusion Care Solutions.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <h4>Kingdom Economy & Marketplace Empowerment</h4>
-                        <p>Platforms like the Rise App for economic awakening in agriculture, mining, and digital infrastructures.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <h4>Spiritual Technology Integration</h4>
-                        <p>Embedding values and virtue into technology.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <h4>Global Influence and Nation Building</h4>
-                        <p>Initiatives like owning a football club and establishing tech hubs.</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="logo.png" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="ai-research.html">AI Research</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="section">
+    <div class="container">
+        <h1>Our Services</h1>
+        <p class="lead text-center mb-5">Real-world AI & IoT solutions built and deployed by 1stkings INTERNATIONAL.</p>
+
+        <div class="row">
+
+            <!-- AI INTEGRATION + LIVE DEMO (Predictive Healthcare REMOVED) -->
+            <div class="col-md-6">
+                <div class="card mb-4 h-100">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">AI Integration & Implementation</h4>
+                        <p>Intelligent systems that transform healthcare, education, and business.</p>
+                        <ul class="list-unstyled">
+                            <li><strong>MindSync</strong> – Thought-to-Action Engine</li>
+                            <li><strong>Marcellina Medical Assistant</strong> – <a href="https://marcellinamedicalassistant.streamlit.app/" target="_blank" class="project-link text-primary">Live AI Health Assistant</a></li>
+                        </ul>
+                        <a href="https://marcellinamedicalassistant.streamlit.app/" target="_blank" class="btn btn-outline-primary btn-demo mt-2">
+                            Launch AI Demo
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Footer (same) -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 1stkings INTERNATIONAL. All rights reserved.</p>
-            <p>Email: kings@1st-kings.com | Social: [Links to placeholders]</p>
-        </div>
-    </footer>
+            <!-- IOT SMART IRRIGATION + LIVE SIMULATION -->
+            <div class="col-md-6">
+                <div class="card mb-4 h-100">
+                    <div class="card-body">
+                        <h4 class="card-title text-success">IoT & Smart Systems</h4>
+                        <p>Embedded intelligence for agriculture, energy, and automation.</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Smart Irrigation System</strong> – <a href="https://wokwi.com/projects/426469555448666113" target="_blank" class="project-link text-success">Live Wokwi Simulation</a></li>
+                            <li>Soil moisture + weather-based watering</li>
+                            <li>ESP32 + sensors + cloud control</li>
+                        </ul>
+                        <a href="https://wokwi.com/projects/426469555448666113" target="_blank" class="btn btn-outline-success btn-demo mt-2">
+                            Run IoT Simulation
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- SOFTWARE DEVELOPMENT -->
+            <div class="col-md-6">
+                <div class="card mb-4" id="software">
+                    <div class="card-body">
+                        <h4>Software Development</h4>
+                        <p>Scalable mobile & web apps infused with spiritual intelligence.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EDUCATION & TRAINING -->
+            <div class="col-md-6">
+                <div class="card mb-4" id="education">
+                    <div class="card-body">
+                        <h4>Education & Training</h4>
+                        <p>AI & software courses for students and professionals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CUSTOM AI & FINTECH SOLUTIONS (UPDATED + PREDICTIVE REMOVED) -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h4>Custom AI & Fintech Solutions</h4>
+                        <ul class="list-unstyled">
+                            <li><strong>Ceaser</strong> – Secure Digital Wallet & Payment Platform</li>
+                            <li><strong>Marcellina Medical Assistant</strong> – AI-Powered Health Diagnosis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KINGDOM ECONOMY -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h4>Kingdom Economy Platforms</h4>
+                        <p>Rise App for agriculture, mining, digital hubs.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2025 1stkings INTERNATIONAL. All rights reserved.</p>
+        <p>Email: kings@1st-kings.com | Social: [Links]</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
